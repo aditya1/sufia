@@ -9,6 +9,7 @@ gem 'sufia-models', path: './sufia-models'
 gem 'slop', '~> 3.6.0' # This just helps us generate a valid Gemfile.lock when Rails 4.2 is installed (which requires byebug which has a dependency on slop)
 
 gem 'hydra-editor', github: 'projecthydra-labs/hydra-editor'
+gem 'active-fedora', github: 'projecthydra/active_fedora'
 
 group :development, :test do
   gem "simplecov", require: false
